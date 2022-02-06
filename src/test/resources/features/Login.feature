@@ -3,7 +3,7 @@ Feature: Login in to Plooto portal
   Background: To Launch the browser
     Given Launch the browser Login
 
-  @SmokeW
+  @Smoke
   Scenario: Login page. Allows user to authenticate.
   "Sign In" button will navigate user to Company Selection screen
     When Open Login page on your browser "https://app.plooto.com/qa-test-j1K3eVzQ/login.html"

@@ -3,7 +3,7 @@ Feature: Displays current status of the company verification as well highlights 
   Background: To Launch the browser
     Given Launch the browser Dashboard
 
-  @SmokeW
+  @Smoke
   Scenario: Dashboard page. Displays current status of the company verification as well highlights actionable items.
   Payment Approvals and Pending Payments are interactive
     When Open Company Dashboard page on your browser "https://app.plooto.com/qa-test-j1K3eVzQ/dashboard.html"

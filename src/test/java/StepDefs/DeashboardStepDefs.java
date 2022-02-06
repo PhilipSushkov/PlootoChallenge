@@ -81,7 +81,7 @@ public class DeashboardStepDefs extends TestRunner {
     }
 
     @Then("Verify the item {string} is highlighted by colour {string}")
-    public void verifyTheItemIsHighlightedByColour(String arg0, String arg1) throws InterruptedException {
+    public void verifyTheItemIsHighlightedByColour(String arg0, String arg1) {
         String bckgclr = elPaymentApprovalBtn.getCssValue("background-color");
 
         // Verify the item is highlighted by background colour

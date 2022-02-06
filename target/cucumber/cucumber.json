@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2833355358,
+              "duration": 3319999915,
               "status": "passed"
             },
             "line": 4,
@@ -33,7 +33,7 @@
         "steps": [
           {
             "result": {
-              "duration": 781305074,
+              "duration": 1020464989,
               "status": "passed"
             },
             "line": 9,
@@ -51,7 +51,7 @@
           },
           {
             "result": {
-              "duration": 5495718962,
+              "duration": 7932077739,
               "status": "passed"
             },
             "line": 10,
@@ -73,7 +73,7 @@
           },
           {
             "result": {
-              "duration": 748890557,
+              "duration": 714086733,
               "status": "passed"
             },
             "line": 11,
@@ -120,7 +120,791 @@
         "steps": [
           {
             "result": {
-              "duration": 2818534127,
+              "duration": 3350824411,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Launch the browser Dashboard",
+            "match": {
+              "location": "DeashboardStepDefs.launchTheBrowserDashboard()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "Dashboard page. Displays current status of the company verification as well highlights actionable items.",
+        "description": "  Payment Approvals and Pending Payments are interactive",
+        "id": "displays-current-status-of-the-company-verification-as-well-highlights-actionable-items;dashboard-page.-displays-current-status-of-the-company-verification-as-well-highlights-actionable-items.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 955356696,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Open Company Dashboard page on your browser \"https://app.plooto.com/qa-test-j1K3eVzQ/dashboard.html\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://app.plooto.com/qa-test-j1K3eVzQ/dashboard.html\"",
+                  "offset": 44
+                }
+              ],
+              "location": "DeashboardStepDefs.openCompanyDashboardPageOnYourBrowser(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 536566831,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Displays current status \"Click here to finish\" of the company verification \"company verification\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Click here to finish\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"company verification\"",
+                  "offset": 75
+                }
+              ],
+              "location": "DeashboardStepDefs.displaysCurrentStatusOfTheCompanyVerification(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 224894637,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Verify actionable items",
+            "match": {
+              "location": "DeashboardStepDefs.verifyActionableItems(String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Dashboard",
+                  "Payment Approvals",
+                  "Pending Payments"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 168319338,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "\"ApprovePayments\" is hovered by mouse",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ApprovePayments\"",
+                  "offset": 0
+                }
+              ],
+              "location": "DeashboardStepDefs.paymentApprovalsIsHoveredByMouse(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14263996,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Verify the item \"Payment Approvals\" is highlighted by colour \"rgba(252, 252, 252, 1)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Payment Approvals\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"rgba(252, 252, 252, 1)\"",
+                  "offset": 61
+                }
+              ],
+              "location": "DeashboardStepDefs.verifyTheItemIsHighlightedByColour(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 380850477,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Click the menu item \"Payment Approvals\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Payment Approvals\"",
+                  "offset": 20
+                }
+              ],
+              "location": "DeashboardStepDefs.clickTheMenuItem(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 76208927,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "\"Payment approvals\" page opens",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Payment approvals\"",
+                  "offset": 0
+                }
+              ],
+              "location": "DeashboardStepDefs.pageOpens(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 196142982,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "\"PendingPayments\" is hovered by mouse",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PendingPayments\"",
+                  "offset": 0
+                }
+              ],
+              "location": "DeashboardStepDefs.paymentApprovalsIsHoveredByMouse(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14724152,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Verify the item \"Pending Payments\" is highlighted by colour \"rgba(252, 252, 252, 1)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pending Payments\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"rgba(252, 252, 252, 1)\"",
+                  "offset": 60
+                }
+              ],
+              "location": "DeashboardStepDefs.verifyTheItemIsHighlightedByColour(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 428603686,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Click the menu item \"Pending Payments\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pending Payments\"",
+                  "offset": 20
+                }
+              ],
+              "location": "DeashboardStepDefs.clickTheMenuItem(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 55418920,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "\"Payments currently in transit\" page opens",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Payments currently in transit\"",
+                  "offset": 0
+                }
+              ],
+              "location": "DeashboardStepDefs.pageOpens(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 731938324,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Finish Dashboard test",
+            "match": {
+              "location": "DeashboardStepDefs.finishDashboardTest()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Displays current status of the company verification as well highlights actionable items",
+    "description": "",
+    "id": "displays-current-status-of-the-company-verification-as-well-highlights-actionable-items",
+    "keyword": "Feature",
+    "uri": "src\\test\\resources\\features\\Dashboard.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "To Launch the browser",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3329416872,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Launch the browser Login",
+            "match": {
+              "location": "LoginStepDefs.launchTheBrowserLogin()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "Login page. Allows user to authenticate.",
+        "description": "  \"Sign In\" button will navigate user to Company Selection screen",
+        "id": "login-in-to-plooto-portal;login-page.-allows-user-to-authenticate.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1252885066,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Open Login page on your browser \"https://app.plooto.com/qa-test-j1K3eVzQ/login.html\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://app.plooto.com/qa-test-j1K3eVzQ/login.html\"",
+                  "offset": 32
+                }
+              ],
+              "location": "LoginStepDefs.openLoginPageOnYourBrowser(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 455450994,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Enter email \"testuser@plooto.com\" in the email text box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"testuser@plooto.com\"",
+                  "offset": 12
+                }
+              ],
+              "location": "LoginStepDefs.enterEmailInTheEmailTextBox(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 179240785,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Enter password \"Asdfgh@1234\" in the password text box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Asdfgh@1234\"",
+                  "offset": 15
+                }
+              ],
+              "location": "LoginStepDefs.enterPasswordInThePasswordTextBox(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 443825200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Click \"Sign In\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sign In\"",
+                  "offset": 6
+                }
+              ],
+              "location": "LoginStepDefs.clickButton(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 773950696,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Company Selection page \"/company_select.html\" should open.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/company_select.html\"",
+                  "offset": 23
+                }
+              ],
+              "location": "LoginStepDefs.companySelectionPageShouldOpen(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Login in to Plooto portal",
+    "description": "",
+    "id": "login-in-to-plooto-portal",
+    "keyword": "Feature",
+    "uri": "src\\test\\resources\\features\\Login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "To Launch the browser",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1392945835,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Launch the browser Payment Approval",
+            "match": {
+              "location": "PaymentApprovalStepDefs.launchTheBrowserPaymentApproval()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "Payment Approval page. Displays all the details about payment, its approval process and audit trail",
+        "description": "",
+        "id": "displays-all-the-details-about-payment;payment-approval-page.-displays-all-the-details-about-payment--its-approval-process-and-audit-trail",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1028845739,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Open Payment Approval page on your browser \"https://app.plooto.com/qa-test-j1K3eVzQ/payment_approval.html\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://app.plooto.com/qa-test-j1K3eVzQ/payment_approval.html\"",
+                  "offset": 43
+                }
+              ],
+              "location": "PaymentApprovalStepDefs.openPaymentApprovalPageOnYourBrowser(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 170889544,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "\"Sent Payment Details\" span section is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sent Payment Details\"",
+                  "offset": 0
+                }
+              ],
+              "location": "PaymentApprovalStepDefs.spanSectionIsDisplayed(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 390796443,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "div sections are displayed",
+            "match": {
+              "location": "PaymentApprovalStepDefs.divSectionsAreDisplayed(String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Payment Attachments",
+                  "Payment Approval History",
+                  "Audit Trail",
+                  "Payment Line Items",
+                  "Additional Details",
+                  "Recent Transactions"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 58415924,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "\"Cavages\" is displayed in Contact field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Cavages\"",
+                  "offset": 0
+                }
+              ],
+              "location": "PaymentApprovalStepDefs.isDisplayedInContactField(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 444013368,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "values are displayed",
+            "match": {
+              "location": "PaymentApprovalStepDefs.valuesAreDisplayed(String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "payment.amount",
+                  "payment.sourceCurrency",
+                  "payment.exchangeRate",
+                  "payment.date",
+                  "payment.displayStatus"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 421128709,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "values are displayed",
+            "match": {
+              "location": "PaymentApprovalStepDefs.valuesAreDisplayed(String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "PaymentInitiatedBy",
+                  "estimatedDate",
+                  "approval.DisplayName",
+                  "ApprovalStatus",
+                  "auditLog.description"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 264480924,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "values are displayed",
+            "match": {
+              "location": "PaymentApprovalStepDefs.valuesAreDisplayed(String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "paymentLineItem.amount",
+                  "payment.createdDate",
+                  "payment.payeeAccount",
+                  "payment.source"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 114924508,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "href buttons are displayed",
+            "match": {
+              "location": "PaymentApprovalStepDefs.hrefButtonsAreDisplayed(String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Export to PDF",
+                  "Edit Payment",
+                  "Delete Payment"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 98257521,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "buttons are displayed",
+            "match": {
+              "location": "PaymentApprovalStepDefs.buttonsAreDisplayed(String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "RejectPayment",
+                  "ApprovePayment"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 732524211,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Finish Payment Approval test",
+            "match": {
+              "location": "PaymentApprovalStepDefs.finishPaymentApprovalTest()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Displays all the details about payment",
+    "description": "",
+    "id": "displays-all-the-details-about-payment",
+    "keyword": "Feature",
+    "uri": "src\\test\\resources\\features\\PaymentApproval.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "To Launch the browser",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1496410053,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Launch the browser Payment Approvals",
+            "match": {
+              "location": "PaymentApprovalsStepDefs.launchTheBrowserPaymentApprovals()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "Payment Approvals page. Displays a single payment that still requires user\u0027s approval.",
+        "description": "  No interactive elements",
+        "id": "displays-a-single-payment-that-still-requires-user-s-approval;payment-approvals-page.-displays-a-single-payment-that-still-requires-user-s-approval.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 888646837,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Open Payment Approvals page on your browser \"https://app.plooto.com/qa-test-j1K3eVzQ/payment_approvals.html\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://app.plooto.com/qa-test-j1K3eVzQ/payment_approvals.html\"",
+                  "offset": 44
+                }
+              ],
+              "location": "PaymentApprovalsStepDefs.openPaymentApprovalsPageOnYourBrowser(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 87362590,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Single payment 1 only that still requires user\u0027s approval in \"My Approval\" tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 15
+                },
+                {
+                  "val": "\"My Approval\"",
+                  "offset": 61
+                }
+              ],
+              "location": "PaymentApprovalsStepDefs.singlePaymentOnlyThatStillRequiresUserSApprovalInTab(int,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 448510158,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "All Payments details are displayed \"contactName\" \"date\" \"amount\" and contains more than 2 symbols",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"contactName\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"date\"",
+                  "offset": 49
+                },
+                {
+                  "val": "\"amount\"",
+                  "offset": 56
+                },
+                {
+                  "val": "2",
+                  "offset": 88
+                }
+              ],
+              "location": "PaymentApprovalsStepDefs.allPaymentsDetailsAreDisplayed(String,String,String,int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 740040670,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Finish Payment Approvals test",
+            "match": {
+              "location": "PaymentApprovalsStepDefs.finishPaymentApprovalsTest()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Displays a single payment that still requires user\u0027s approval",
+    "description": "",
+    "id": "displays-a-single-payment-that-still-requires-user-s-approval",
+    "keyword": "Feature",
+    "uri": "src\\test\\resources\\features\\PaymentApprovals.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "To Launch the browser",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1400865146,
               "status": "passed"
             },
             "line": 4,
@@ -142,7 +926,7 @@
         "steps": [
           {
             "result": {
-              "duration": 765558827,
+              "duration": 841242166,
               "status": "passed"
             },
             "line": 9,
@@ -160,7 +944,7 @@
           },
           {
             "result": {
-              "duration": 609446893,
+              "duration": 306666924,
               "status": "passed"
             },
             "line": 10,
@@ -182,10 +966,10 @@
           },
           {
             "result": {
-              "duration": 286620609,
+              "duration": 296994656,
               "status": "passed"
             },
-            "line": 11,
+            "line": 12,
             "name": "Click \"Cavages\" item in Pending Payments list",
             "match": {
               "arguments": [
@@ -200,10 +984,10 @@
           },
           {
             "result": {
-              "duration": 34009242,
+              "duration": 20367484,
               "status": "passed"
             },
-            "line": 12,
+            "line": 13,
             "name": "Check \"/payment_approval.html\" page opens with \"Sent Payment Details\" label",
             "match": {
               "arguments": [
@@ -222,10 +1006,10 @@
           },
           {
             "result": {
-              "duration": 676913273,
+              "duration": 670916699,
               "status": "passed"
             },
-            "line": 13,
+            "line": 14,
             "name": "Finish Pending Payments test",
             "match": {
               "location": "PendingPaymentsStepDefs.finishPendingPaymentsTest()"
