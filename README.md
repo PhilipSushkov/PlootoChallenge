@@ -15,7 +15,7 @@ Possible to run on *MacOS* with some specific settings
 3. Install *Java 11* https://www.oracle.com/ca-en/java/technologies/javase/jdk11-archive-downloads.html for Windows or MacOS
    How to Check if Java 11 is Installed correctly https://www.baeldung.com/java-check-is-installed
 4. Install *Maven* https://www.baeldung.com/install-maven-on-windows-linux-mac. 
-   You can verify if Maven install correctly by `mvn -version` 
+   You can verify if Maven installed correctly by `mvn -version` 
 5. Download *PlootoChallenge* test suite from GitHub repo https://github.com/PhilipSushkov/PlootoChallenge or 
 unpack *.zip* file provided on your local computer
 6. You may use *GitHub Desktop* https://desktop.github.com/ and *Git* https://git-scm.com/downloads to establish the repo connection
