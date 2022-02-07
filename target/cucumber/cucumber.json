@@ -1,20 +1,20 @@
 [
   {
-    "line": 1,
+    "line": 2,
     "elements": [
       {
-        "line": 3,
-        "name": "To Launch the browser",
+        "line": 4,
+        "name": "Migration of the front-end codebase from Knockout.js to React",
         "description": "",
         "type": "background",
         "keyword": "Background",
         "steps": [
           {
             "result": {
-              "duration": 3319999915,
+              "duration": 3223327709,
               "status": "passed"
             },
-            "line": 4,
+            "line": 5,
             "name": "Launch the browser Company Selection",
             "match": {
               "location": "CompanySelectionStepDefs.launchTheBrowserCompanySelection()"
@@ -24,7 +24,7 @@
         ]
       },
       {
-        "line": 7,
+        "line": 8,
         "name": "Company Selection page. Displays list of companies (and their status) available to the user.",
         "description": "  Only \"Plooto Inc\" company will lead to Dashboard",
         "id": "displays-list-of-companies-and-their-status;company-selection-page.-displays-list-of-companies-(and-their-status)-available-to-the-user.",
@@ -33,10 +33,10 @@
         "steps": [
           {
             "result": {
-              "duration": 1020464989,
+              "duration": 1294968429,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "Open Company Selection page on your browser \"https://app.plooto.com/qa-test-j1K3eVzQ/company_select.html\"",
             "match": {
               "arguments": [
@@ -51,10 +51,10 @@
           },
           {
             "result": {
-              "duration": 7932077739,
+              "duration": 7515196496,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "Displays list of companies and their status available to the user more than 40 with more 2 symbols",
             "match": {
               "arguments": [
@@ -73,10 +73,10 @@
           },
           {
             "result": {
-              "duration": 714086733,
+              "duration": 908957015,
               "status": "passed"
             },
-            "line": 11,
+            "line": 12,
             "name": "Only \"Plooto Inc\" company will lead to Dashboard \"dashboard.html\"",
             "match": {
               "arguments": [
@@ -96,7 +96,7 @@
         ],
         "tags": [
           {
-            "name": "@Smoke"
+            "name": "@Migration_Smoke"
           }
         ]
       }
@@ -109,21 +109,21 @@
     "tags": []
   },
   {
-    "line": 1,
+    "line": 2,
     "elements": [
       {
-        "line": 3,
-        "name": "To Launch the browser",
+        "line": 4,
+        "name": "Migration of the front-end codebase from Knockout.js to React",
         "description": "",
         "type": "background",
         "keyword": "Background",
         "steps": [
           {
             "result": {
-              "duration": 3350824411,
+              "duration": 3188871997,
               "status": "passed"
             },
-            "line": 4,
+            "line": 5,
             "name": "Launch the browser Dashboard",
             "match": {
               "location": "DeashboardStepDefs.launchTheBrowserDashboard()"
@@ -133,7 +133,7 @@
         ]
       },
       {
-        "line": 7,
+        "line": 8,
         "name": "Dashboard page. Displays current status of the company verification as well highlights actionable items.",
         "description": "  Payment Approvals and Pending Payments are interactive",
         "id": "displays-current-status-of-the-company-verification-as-well-highlights-actionable-items;dashboard-page.-displays-current-status-of-the-company-verification-as-well-highlights-actionable-items.",
@@ -142,10 +142,10 @@
         "steps": [
           {
             "result": {
-              "duration": 955356696,
+              "duration": 978321327,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "Open Company Dashboard page on your browser \"https://app.plooto.com/qa-test-j1K3eVzQ/dashboard.html\"",
             "match": {
               "arguments": [
@@ -160,10 +160,10 @@
           },
           {
             "result": {
-              "duration": 536566831,
+              "duration": 147078584,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "Displays current status \"Click here to finish\" of the company verification \"company verification\"",
             "match": {
               "arguments": [
@@ -182,10 +182,10 @@
           },
           {
             "result": {
-              "duration": 224894637,
+              "duration": 170082558,
               "status": "passed"
             },
-            "line": 11,
+            "line": 12,
             "name": "Verify actionable items",
             "match": {
               "location": "DeashboardStepDefs.verifyActionableItems(String\u003e)"
@@ -203,10 +203,10 @@
           },
           {
             "result": {
-              "duration": 168319338,
+              "duration": 285453966,
               "status": "passed"
             },
-            "line": 14,
+            "line": 15,
             "name": "\"ApprovePayments\" is hovered by mouse",
             "match": {
               "arguments": [
@@ -221,10 +221,10 @@
           },
           {
             "result": {
-              "duration": 14263996,
+              "duration": 80688182,
               "status": "passed"
             },
-            "line": 15,
+            "line": 16,
             "name": "Verify the item \"Payment Approvals\" is highlighted by colour \"rgba(252, 252, 252, 1)\"",
             "match": {
               "arguments": [
@@ -243,10 +243,10 @@
           },
           {
             "result": {
-              "duration": 380850477,
+              "duration": 431671681,
               "status": "passed"
             },
-            "line": 17,
+            "line": 18,
             "name": "Click the menu item \"Payment Approvals\"",
             "match": {
               "arguments": [
@@ -261,10 +261,10 @@
           },
           {
             "result": {
-              "duration": 76208927,
+              "duration": 59912716,
               "status": "passed"
             },
-            "line": 18,
+            "line": 19,
             "name": "\"Payment approvals\" page opens",
             "match": {
               "arguments": [
@@ -279,10 +279,10 @@
           },
           {
             "result": {
-              "duration": 196142982,
+              "duration": 140015011,
               "status": "passed"
             },
-            "line": 20,
+            "line": 21,
             "name": "\"PendingPayments\" is hovered by mouse",
             "match": {
               "arguments": [
@@ -297,10 +297,10 @@
           },
           {
             "result": {
-              "duration": 14724152,
+              "duration": 10813250,
               "status": "passed"
             },
-            "line": 21,
+            "line": 22,
             "name": "Verify the item \"Pending Payments\" is highlighted by colour \"rgba(252, 252, 252, 1)\"",
             "match": {
               "arguments": [
@@ -319,10 +319,10 @@
           },
           {
             "result": {
-              "duration": 428603686,
+              "duration": 386434792,
               "status": "passed"
             },
-            "line": 23,
+            "line": 24,
             "name": "Click the menu item \"Pending Payments\"",
             "match": {
               "arguments": [
@@ -337,10 +337,10 @@
           },
           {
             "result": {
-              "duration": 55418920,
+              "duration": 79299587,
               "status": "passed"
             },
-            "line": 24,
+            "line": 25,
             "name": "\"Payments currently in transit\" page opens",
             "match": {
               "arguments": [
@@ -355,10 +355,10 @@
           },
           {
             "result": {
-              "duration": 731938324,
+              "duration": 804003276,
               "status": "passed"
             },
-            "line": 26,
+            "line": 27,
             "name": "Finish Dashboard test",
             "match": {
               "location": "DeashboardStepDefs.finishDashboardTest()"
@@ -368,7 +368,7 @@
         ],
         "tags": [
           {
-            "name": "@Smoke"
+            "name": "@Migration_Smoke"
           }
         ]
       }
@@ -381,21 +381,21 @@
     "tags": []
   },
   {
-    "line": 1,
+    "line": 2,
     "elements": [
       {
-        "line": 3,
-        "name": "To Launch the browser",
+        "line": 4,
+        "name": "Migration of the front-end codebase from Knockout.js to React",
         "description": "",
         "type": "background",
         "keyword": "Background",
         "steps": [
           {
             "result": {
-              "duration": 3329416872,
+              "duration": 3280486329,
               "status": "passed"
             },
-            "line": 4,
+            "line": 5,
             "name": "Launch the browser Login",
             "match": {
               "location": "LoginStepDefs.launchTheBrowserLogin()"
@@ -405,7 +405,7 @@
         ]
       },
       {
-        "line": 7,
+        "line": 8,
         "name": "Login page. Allows user to authenticate.",
         "description": "  \"Sign In\" button will navigate user to Company Selection screen",
         "id": "login-in-to-plooto-portal;login-page.-allows-user-to-authenticate.",
@@ -414,10 +414,10 @@
         "steps": [
           {
             "result": {
-              "duration": 1252885066,
+              "duration": 1974237225,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "Open Login page on your browser \"https://app.plooto.com/qa-test-j1K3eVzQ/login.html\"",
             "match": {
               "arguments": [
@@ -432,10 +432,10 @@
           },
           {
             "result": {
-              "duration": 455450994,
+              "duration": 202811830,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "Enter email \"testuser@plooto.com\" in the email text box",
             "match": {
               "arguments": [
@@ -450,10 +450,10 @@
           },
           {
             "result": {
-              "duration": 179240785,
+              "duration": 163894823,
               "status": "passed"
             },
-            "line": 11,
+            "line": 12,
             "name": "Enter password \"Asdfgh@1234\" in the password text box",
             "match": {
               "arguments": [
@@ -468,10 +468,10 @@
           },
           {
             "result": {
-              "duration": 443825200,
+              "duration": 500902138,
               "status": "passed"
             },
-            "line": 12,
+            "line": 13,
             "name": "Click \"Sign In\" button",
             "match": {
               "arguments": [
@@ -486,10 +486,10 @@
           },
           {
             "result": {
-              "duration": 773950696,
+              "duration": 783288108,
               "status": "passed"
             },
-            "line": 13,
+            "line": 14,
             "name": "Company Selection page \"/company_select.html\" should open.",
             "match": {
               "arguments": [
@@ -505,7 +505,7 @@
         ],
         "tags": [
           {
-            "name": "@Smoke"
+            "name": "@Migration_Smoke"
           }
         ]
       }
@@ -518,21 +518,21 @@
     "tags": []
   },
   {
-    "line": 1,
+    "line": 2,
     "elements": [
       {
-        "line": 3,
-        "name": "To Launch the browser",
+        "line": 4,
+        "name": "Migration of the front-end codebase from Knockout.js to React",
         "description": "",
         "type": "background",
         "keyword": "Background",
         "steps": [
           {
             "result": {
-              "duration": 1392945835,
+              "duration": 1793355956,
               "status": "passed"
             },
-            "line": 4,
+            "line": 5,
             "name": "Launch the browser Payment Approval",
             "match": {
               "location": "PaymentApprovalStepDefs.launchTheBrowserPaymentApproval()"
@@ -542,7 +542,7 @@
         ]
       },
       {
-        "line": 7,
+        "line": 8,
         "name": "Payment Approval page. Displays all the details about payment, its approval process and audit trail",
         "description": "",
         "id": "displays-all-the-details-about-payment;payment-approval-page.-displays-all-the-details-about-payment--its-approval-process-and-audit-trail",
@@ -551,10 +551,10 @@
         "steps": [
           {
             "result": {
-              "duration": 1028845739,
+              "duration": 841894339,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "Open Payment Approval page on your browser \"https://app.plooto.com/qa-test-j1K3eVzQ/payment_approval.html\"",
             "match": {
               "arguments": [
@@ -569,10 +569,10 @@
           },
           {
             "result": {
-              "duration": 170889544,
+              "duration": 82977418,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "\"Sent Payment Details\" span section is displayed",
             "match": {
               "arguments": [
@@ -587,10 +587,10 @@
           },
           {
             "result": {
-              "duration": 390796443,
+              "duration": 527725925,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "div sections are displayed",
             "match": {
               "location": "PaymentApprovalStepDefs.divSectionsAreDisplayed(String\u003e)"
@@ -611,10 +611,10 @@
           },
           {
             "result": {
-              "duration": 58415924,
+              "duration": 72258252,
               "status": "passed"
             },
-            "line": 13,
+            "line": 14,
             "name": "\"Cavages\" is displayed in Contact field",
             "match": {
               "arguments": [
@@ -629,10 +629,10 @@
           },
           {
             "result": {
-              "duration": 444013368,
+              "duration": 467741791,
               "status": "passed"
             },
-            "line": 15,
+            "line": 16,
             "name": "values are displayed",
             "match": {
               "location": "PaymentApprovalStepDefs.valuesAreDisplayed(String\u003e)"
@@ -652,10 +652,10 @@
           },
           {
             "result": {
-              "duration": 421128709,
+              "duration": 272123541,
               "status": "passed"
             },
-            "line": 18,
+            "line": 19,
             "name": "values are displayed",
             "match": {
               "location": "PaymentApprovalStepDefs.valuesAreDisplayed(String\u003e)"
@@ -675,10 +675,10 @@
           },
           {
             "result": {
-              "duration": 264480924,
+              "duration": 256030467,
               "status": "passed"
             },
-            "line": 21,
+            "line": 22,
             "name": "values are displayed",
             "match": {
               "location": "PaymentApprovalStepDefs.valuesAreDisplayed(String\u003e)"
@@ -697,10 +697,10 @@
           },
           {
             "result": {
-              "duration": 114924508,
+              "duration": 119748882,
               "status": "passed"
             },
-            "line": 24,
+            "line": 25,
             "name": "href buttons are displayed",
             "match": {
               "location": "PaymentApprovalStepDefs.hrefButtonsAreDisplayed(String\u003e)"
@@ -718,10 +718,10 @@
           },
           {
             "result": {
-              "duration": 98257521,
+              "duration": 71225039,
               "status": "passed"
             },
-            "line": 27,
+            "line": 28,
             "name": "buttons are displayed",
             "match": {
               "location": "PaymentApprovalStepDefs.buttonsAreDisplayed(String\u003e)"
@@ -738,10 +738,10 @@
           },
           {
             "result": {
-              "duration": 732524211,
+              "duration": 733003612,
               "status": "passed"
             },
-            "line": 30,
+            "line": 31,
             "name": "Finish Payment Approval test",
             "match": {
               "location": "PaymentApprovalStepDefs.finishPaymentApprovalTest()"
@@ -751,7 +751,7 @@
         ],
         "tags": [
           {
-            "name": "@Smoke"
+            "name": "@Migration_Smoke"
           }
         ]
       }
@@ -764,21 +764,21 @@
     "tags": []
   },
   {
-    "line": 1,
+    "line": 2,
     "elements": [
       {
-        "line": 3,
-        "name": "To Launch the browser",
+        "line": 4,
+        "name": "Migration of the front-end codebase from Knockout.js to React",
         "description": "",
         "type": "background",
         "keyword": "Background",
         "steps": [
           {
             "result": {
-              "duration": 1496410053,
+              "duration": 1860668809,
               "status": "passed"
             },
-            "line": 4,
+            "line": 5,
             "name": "Launch the browser Payment Approvals",
             "match": {
               "location": "PaymentApprovalsStepDefs.launchTheBrowserPaymentApprovals()"
@@ -788,7 +788,7 @@
         ]
       },
       {
-        "line": 7,
+        "line": 8,
         "name": "Payment Approvals page. Displays a single payment that still requires user\u0027s approval.",
         "description": "  No interactive elements",
         "id": "displays-a-single-payment-that-still-requires-user-s-approval;payment-approvals-page.-displays-a-single-payment-that-still-requires-user-s-approval.",
@@ -797,10 +797,10 @@
         "steps": [
           {
             "result": {
-              "duration": 888646837,
+              "duration": 851653848,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "Open Payment Approvals page on your browser \"https://app.plooto.com/qa-test-j1K3eVzQ/payment_approvals.html\"",
             "match": {
               "arguments": [
@@ -815,10 +815,10 @@
           },
           {
             "result": {
-              "duration": 87362590,
+              "duration": 175624963,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "Single payment 1 only that still requires user\u0027s approval in \"My Approval\" tab",
             "match": {
               "arguments": [
@@ -837,10 +837,10 @@
           },
           {
             "result": {
-              "duration": 448510158,
+              "duration": 493436142,
               "status": "passed"
             },
-            "line": 11,
+            "line": 12,
             "name": "All Payments details are displayed \"contactName\" \"date\" \"amount\" and contains more than 2 symbols",
             "match": {
               "arguments": [
@@ -867,10 +867,10 @@
           },
           {
             "result": {
-              "duration": 740040670,
+              "duration": 735142312,
               "status": "passed"
             },
-            "line": 12,
+            "line": 13,
             "name": "Finish Payment Approvals test",
             "match": {
               "location": "PaymentApprovalsStepDefs.finishPaymentApprovalsTest()"
@@ -880,7 +880,7 @@
         ],
         "tags": [
           {
-            "name": "@Smoke"
+            "name": "@Migration_Smoke"
           }
         ]
       }
@@ -893,21 +893,21 @@
     "tags": []
   },
   {
-    "line": 1,
+    "line": 2,
     "elements": [
       {
-        "line": 3,
-        "name": "To Launch the browser",
+        "line": 4,
+        "name": "Migration of the front-end codebase from Knockout.js to React",
         "description": "",
         "type": "background",
         "keyword": "Background",
         "steps": [
           {
             "result": {
-              "duration": 1400865146,
+              "duration": 1423368337,
               "status": "passed"
             },
-            "line": 4,
+            "line": 5,
             "name": "Launch the browser Pending Payments",
             "match": {
               "location": "PendingPaymentsStepDefs.launchTheBrowserPendingPayments()"
@@ -917,7 +917,7 @@
         ]
       },
       {
-        "line": 7,
+        "line": 8,
         "name": "Pending Payments page. Displays ongoing payments.",
         "description": "  Payment to Cavages will navigate to a Payment Approval page",
         "id": "displays-ongoing-payments;pending-payments-page.-displays-ongoing-payments.",
@@ -926,10 +926,10 @@
         "steps": [
           {
             "result": {
-              "duration": 841242166,
+              "duration": 747453209,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "Open Pending Payments page on your browser \"https://app.plooto.com/qa-test-j1K3eVzQ/pending_payments.html\"",
             "match": {
               "arguments": [
@@ -944,10 +944,10 @@
           },
           {
             "result": {
-              "duration": 306666924,
+              "duration": 319713814,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "10 ongoing payments items \"displayName\" should be displayed on the page",
             "match": {
               "arguments": [
@@ -966,10 +966,10 @@
           },
           {
             "result": {
-              "duration": 296994656,
+              "duration": 267341078,
               "status": "passed"
             },
-            "line": 12,
+            "line": 13,
             "name": "Click \"Cavages\" item in Pending Payments list",
             "match": {
               "arguments": [
@@ -984,10 +984,10 @@
           },
           {
             "result": {
-              "duration": 20367484,
+              "duration": 21262993,
               "status": "passed"
             },
-            "line": 13,
+            "line": 14,
             "name": "Check \"/payment_approval.html\" page opens with \"Sent Payment Details\" label",
             "match": {
               "arguments": [
@@ -1006,10 +1006,10 @@
           },
           {
             "result": {
-              "duration": 670916699,
+              "duration": 676047700,
               "status": "passed"
             },
-            "line": 14,
+            "line": 15,
             "name": "Finish Pending Payments test",
             "match": {
               "location": "PendingPaymentsStepDefs.finishPendingPaymentsTest()"
@@ -1019,7 +1019,7 @@
         ],
         "tags": [
           {
-            "name": "@Smoke"
+            "name": "@Migration_Smoke"
           }
         ]
       }

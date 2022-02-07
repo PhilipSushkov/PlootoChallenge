@@ -1,9 +1,10 @@
+#4 Payment Approvals
 Feature: Displays a single payment that still requires user's approval
 
-  Background: To Launch the browser
+  Background: Migration of the front-end codebase from Knockout.js to React
     Given Launch the browser Payment Approvals
 
-  @Smoke
+  @Migration_Smoke
   Scenario: Payment Approvals page. Displays a single payment that still requires user's approval.
   No interactive elements
     When Open Payment Approvals page on your browser "https://app.plooto.com/qa-test-j1K3eVzQ/payment_approvals.html"

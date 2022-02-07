@@ -10,7 +10,7 @@ import cucumber.api.testng.TestNGCucumberRunner;
         features = {"src/test/resources/features"},
         glue = {"StepDefs"},
         plugin = { "pretty", "json:target/cucumber/cucumber.json" },
-        tags = "@Smoke"
+        tags = "@Migration_Smoke"
 )
 
 public class TestRunner {

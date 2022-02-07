@@ -13,7 +13,13 @@ public class Spec {
 
     public Spec init() {
         WebDriverManager.chromedriver().setup();
+
+        // For Windows only
         System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+
+        // For MacOS
+        //System.setProperty("webdriver.chrome.driver", "chromedriver");
+
         ChromeOptions options = new ChromeOptions();
         options.addArguments("incognito");
         options.addArguments("--start-fullscreen");

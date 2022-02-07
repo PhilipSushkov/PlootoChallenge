@@ -1,9 +1,10 @@
+#3 Dashboard
 Feature: Displays current status of the company verification as well highlights actionable items
 
-  Background: To Launch the browser
+  Background: Migration of the front-end codebase from Knockout.js to React
     Given Launch the browser Dashboard
 
-  @Smoke
+  @Migration_Smoke
   Scenario: Dashboard page. Displays current status of the company verification as well highlights actionable items.
   Payment Approvals and Pending Payments are interactive
     When Open Company Dashboard page on your browser "https://app.plooto.com/qa-test-j1K3eVzQ/dashboard.html"

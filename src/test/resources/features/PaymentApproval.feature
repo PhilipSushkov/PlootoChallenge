@@ -1,9 +1,10 @@
+#6 Payment Approval
 Feature: Displays all the details about payment
 
-  Background: To Launch the browser
+  Background: Migration of the front-end codebase from Knockout.js to React
     Given Launch the browser Payment Approval
 
-  @Smoke
+  @Migration_Smoke
   Scenario: Payment Approval page. Displays all the details about payment, its approval process and audit trail
     When Open Payment Approval page on your browser "https://app.plooto.com/qa-test-j1K3eVzQ/payment_approval.html"
     Then "Sent Payment Details" span section is displayed

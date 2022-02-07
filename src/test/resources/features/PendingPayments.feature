@@ -1,9 +1,10 @@
+#5 Pending Payments
 Feature: Displays ongoing payments
 
-  Background: To Launch the browser
+  Background: Migration of the front-end codebase from Knockout.js to React
     Given Launch the browser Pending Payments
 
-  @Smoke
+  @Migration_Smoke
   Scenario: Pending Payments page. Displays ongoing payments.
   Payment to Cavages will navigate to a Payment Approval page
     When Open Pending Payments page on your browser "https://app.plooto.com/qa-test-j1K3eVzQ/pending_payments.html"

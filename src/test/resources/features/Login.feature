@@ -1,9 +1,10 @@
+#1 Login
 Feature: Login in to Plooto portal
 
-  Background: To Launch the browser
+  Background: Migration of the front-end codebase from Knockout.js to React
     Given Launch the browser Login
 
-  @Smoke
+  @Migration_Smoke
   Scenario: Login page. Allows user to authenticate.
   "Sign In" button will navigate user to Company Selection screen
     When Open Login page on your browser "https://app.plooto.com/qa-test-j1K3eVzQ/login.html"
